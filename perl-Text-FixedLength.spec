@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	FixedLength
-Summary:	Text-FixedLength perl module
-Summary(pl):	Modu³ perla Text-FixedLength
+Summary:	Text::FixedLength perl module
+Summary(pl):	Modu³ perla Text::FixedLength
 Name:		perl-Text-FixedLength
 Version:	0.12
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-FixedLength perl module.
+Text::FixedLength perl module.
 
 %description -l pl
-Modu³ perla Text-FixedLength.
+Modu³ perla Text::FixedLength.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
