@@ -32,7 +32,7 @@ ograniczonymi i polami sta³ej d³ugo¶ci.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
