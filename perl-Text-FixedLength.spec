@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	FixedLength
-Summary:	Text::FixedLength perl module
-Summary(pl):	Modu³ perla Text::FixedLength
+Summary:	Text::FixedLength - Parse and create fixed length field records
 Name:		perl-Text-FixedLength
 Version:	0.12
 Release:	8
@@ -15,10 +14,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text::FixedLength perl module.
-
-%description -l pl
-Modu³ perla Text::FixedLength.
+Text::FixedLength was made to be able to manipulate fixed length field
+records. You can manipulate arrays of data, or files of data.  This module
+allows you to change between delimited and fixed length records.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
