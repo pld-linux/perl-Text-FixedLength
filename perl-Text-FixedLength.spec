@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	FixedLength
+%define		pdir	Text
+%define		pnam	FixedLength
 Summary:	Text::FixedLength - parse and create fixed length field records
 Summary(pl):	Text::FixedLength - analiza i tworzenie rekordów o polach sta³ej d³ugo¶ci
 Name:		perl-Text-FixedLength
