@@ -5,7 +5,7 @@ Summary:	Text::FixedLength - Parse and create fixed length field records
 Summary(pl):	Text::FixedLength - analiza i tworzenie rekordów o polach sta³ej d³ugo¶ci
 Name:		perl-Text-FixedLength
 Version:	0.12
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
