@@ -30,7 +30,7 @@ ograniczonymi i polami sta³ej d³ugo¶ci.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
