@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	FixedLength
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-FixedLength perl module
 Summary(pl):	Modu³ perla Text-FixedLength
 Name:		perl-Text-FixedLength
 Version:	0.12
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Text-FixedLength perl module.
 Modu³ perla Text-FixedLength.
 
 %prep
-%setup -q -n Text-FixedLength-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
