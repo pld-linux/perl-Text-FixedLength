@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	FixedLength
 Summary:	Text::FixedLength - parse and create fixed length field records
-Summary(pl):	Text::FixedLength - analiza i tworzenie rekordÛw o polach sta≥ej d≥ugo∂ci
+Summary(pl.UTF-8):   Text::FixedLength - analiza i tworzenie rekord√≥w o polach sta≈Çej d≈Çugo≈õci
 Name:		perl-Text-FixedLength
 Version:	0.12
 Release:	12
@@ -26,11 +26,11 @@ records. You can manipulate arrays of data, or files of data. This
 module allows you to change between delimited and fixed length
 records.
 
-%description -l pl
-Text::FixedLength zosta≥ stworzony, by umoøliwiÊ manipulowanie
-rekordami o polach sta≥ej d≥ugo∂ci. Moøna obrabiaÊ tablice lub pliki z
-danymi. Ten modu≥ umoøliwia konwersjÍ pomiÍdzy rekordami z polami
-ograniczonymi i polami sta≥ej d≥ugo∂ci.
+%description -l pl.UTF-8
+Text::FixedLength zosta≈Ç stworzony, by umo≈ºliwiƒá manipulowanie
+rekordami o polach sta≈Çej d≈Çugo≈õci. Mo≈ºna obrabiaƒá tablice lub pliki z
+danymi. Ten modu≈Ç umo≈ºliwia konwersjƒô pomiƒôdzy rekordami z polami
+ograniczonymi i polami sta≈Çej d≈Çugo≈õci.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
