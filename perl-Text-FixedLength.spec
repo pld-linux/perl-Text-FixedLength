@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Text
 %define		pnam	FixedLength
+%include	/usr/lib/rpm/macros.perl
 Summary:	Text::FixedLength - parse and create fixed length field records
 Summary(pl.UTF-8):	Text::FixedLength - analiza i tworzenie rekordów o polach stałej długości
 Name:		perl-Text-FixedLength
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0d567248f2152260bbf0035dace35d31
+URL:		http://search.cpan.org/dist/Text-FixedLength/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
