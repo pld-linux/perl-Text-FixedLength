@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	FixedLength
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::FixedLength - parse and create fixed length field records
 Summary(pl.UTF-8):	Text::FixedLength - analiza i tworzenie rekordów o polach stałej długości
 Name:		perl-Text-FixedLength
